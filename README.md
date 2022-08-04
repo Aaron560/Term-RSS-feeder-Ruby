@@ -8,7 +8,7 @@ Reads the user given RSS link and displays the RSS text in the terminal.
 ![](header.png)
 
 ## Installation
-This project uses Ruby, and the Gem called [rss](https://github.com/ruby/rss), They have a great installation and setup guide there for further use.
+This project uses Ruby.
 
 ## Usage example
 
