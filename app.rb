@@ -2,9 +2,13 @@
 require_relative "rssData.rb"
 require_relative "rssManager.rb"
 
+$stdout.flush
+
 class Application
   def Execute
-    rssUrl = "http://rss.cnn.com/rss/cnn_world.rss"
+    $stdout.puts "Hello, please enter your url below: "
+    $stdout.flush
+    rssUrl = gets.chomp
 
     rssManager = RSS_func.new
 
